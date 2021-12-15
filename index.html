@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Signika:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Carrito de compras</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="header-menu">
+          <li>Tienda</li>
+          <li><a href="#footer">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="header-shopping-bag">
+        <img src="media/shopping-bag.png" class="shopping-bag-logo" />
+      </div>
+      <div class="counter">
+        <span class="qty">0</span>
+      </div>
+    </header>
+
+    <div class="mainContainter"></div>
+
+    <div class="cart-container">
+      <div class="cart-header">
+        <p>Carrito de compras</p>
+        <button id="btnClose" class="closeBtn">
+          <img class="closeImg" src="media/close.png" />
+        </button>
+      </div>
+      <div class="cart-container-1">
+        <p>Compra Confirmada!</p>
+        <img class="success" src="media/success.png" />
+      </div>
+      <div class="cart-resume"></div>
+      <hr />
+      <div class="totalPrice">Total:$<span class="price"> 0</span></div>
+      <div class="cart-footer">
+        <div class="footer-btn">
+          <button id="btnClear" class="cartBtn">Vaciar</button>
+          <button id="btnFinish" class="cartBtn">Confirmar</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="contact-info">
+        <h2>Contacto</h2>
+        <a href="*"><h4>printshop@gmail.com</h4></a>
+      </div>
+      <div class="footer-media">
+        <a href="*" alt="medium">
+          <img src="media/medio.png" width="30" height="30" />
+        </a>
+        <a href="*" alt="instagram">
+          <img src="media/instagram.png" width="30" height="30" />
+        </a>
+        <a href="*" alt="behance">
+          <img src="media/behance.png" width="30" height="30" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
